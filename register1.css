@@ -1,0 +1,163 @@
+*{
+    font-family: 'sora', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url(img/doctores.jpg);
+}
+
+
+section{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+section .fondo{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.login__description{
+    color: #15153d;
+    padding: 12px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.container{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+position: relative;
+padding: 90px;
+background: rgba(106, 120, 241, 0.151);
+backdrop-filter: blur(5px);
+border: 0.05 solid #2e01fa;
+border-radius: 20px;
+width: 600px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+
+}
+
+.container h2{
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+
+}
+
+.container .form-label{
+    position: relative;
+}
+
+
+
+.form-label{
+    color: #0c003f;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ .form-control{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 1.15em;
+    color: #000814;
+    border-radius: 5px;
+    background:#ffffff;
+    border:none;
+    margin-bottom: 10px;
+}
+.container .form-label ::placeholder{
+    color: #000814;
+}
+
+.container .form-label .login__button{
+    position: relative;
+    border: none;
+    outline: none;
+    background: #000814;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.25px;
+    transition: 0.4s;
+}
+
+
+
+
+
+.btn{
+    
+    margin: 10px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 90px; 
+    position: center;
+    border: none;
+    outline: none;
+    background: #1b0275;
+
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+
+
+.btn:hover{
+background-color: #0751be;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+ a{
+    color: #0d003d;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    transition: .4s;
+}
+
+.container .grupo a{
+    
+    text-decoration: none;
+
+}
