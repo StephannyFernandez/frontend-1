@@ -1,6 +1,6 @@
 
 //const url ='http://localhost:5000/api/'
-const url ='https://backend142-1-mj8n.onrender.com/api/'
+const url ='https://backend142-medicos.onrender.com/api/'
 
 
 function sendRequest(endPoint, method, data){
